@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger & Schnitzel – Pinzgau Kebap</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #b22222;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .untertitel {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .item-card {
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .item-info {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .item-info img {
+      width: 60px;
+      height: 60px;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+
+    .item-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .item-name {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .item-desc {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .item-price {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Burger & Schnitzel</h1>
+    <p class="untertitel">Saftig & Knusprig</p>
+  </header>
+
+  <main>
+    <div class="item-card">
+      <div class="item-info">
+        <img src="hamburger.jpg" alt="Hamburger">
+        <div class="item-text">
+          <div class="item-name">Hamburger</div>
+          <div class="item-desc">mit Ketchup / Mayonnaise</div>
+        </div>
+      </div>
+      <div class="item-price">7,80</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="hamburger.jpg" alt="Double Hamburger">
+        <div class="item-text">
+          <div class="item-name">Double Hamburger</div>
+          <div class="item-desc">mit Ketchup / Mayonnaise</div>
+        </div>
+      </div>
+      <div class="item-price">11,20</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="cheesburger.jpg" alt="Cheeseburger">
+        <div class="item-text">
+          <div class="item-name">Cheeseburger</div>
+          <div class="item-desc">mit Ketchup / Mayonnaise</div>
+        </div>
+      </div>
+      <div class="item-price">8,80</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="cheesburger.jpg" alt="Double Cheeseburger">
+        <div class="item-text">
+          <div class="item-name">Double Cheeseburger</div>
+          <div class="item-desc">mit Ketchup / Mayonnaise</div>
+        </div>
+      </div>
+      <div class="item-price">11,80</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="schnitzel_burger.jpg" alt="Schnitzel-Burger">
+        <div class="item-text">
+          <div class="item-name">Schnitzel-Burger</div>
+          <div class="item-desc">Pute mit Ketchup / Mayonnaise</div>
+        </div>
+      </div>
+      <div class="item-price">7,40</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="schnitzelteller.jpg" alt="Schnitzel-Teller">
+        <div class="item-text">
+          <div class="item-name">Schnitzel-Teller</div>
+          <div class="item-desc">mit Pommes, Ketchup / Mayonnaise</div>
+        </div>
+      </div>
+      <div class="item-price">11,80</div>
+    </div>
+  </main>
+</body>
+</html>

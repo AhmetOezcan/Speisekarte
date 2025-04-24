@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bosna & Currywurst – Pinzgau Kebap</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #b22222;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .untertitel {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .item-card {
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .item-info {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .item-info img {
+      width: 60px;
+      height: 60px;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+
+    .item-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .item-name {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .item-desc {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .item-price {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bosna & Currywurst</h1>
+    <p class="untertitel">Würzig & Deftig</p>
+  </header>
+
+  <main>
+    <div class="item-card">
+      <div class="item-info">
+        <img src="bosna_spezial.jpg" alt="Bosna Spezial">
+        <div class="item-text">
+          <div class="item-name">Bosna Spezial</div>
+          <div class="item-desc">mit Ketchup & Mayo</div>
+        </div>
+      </div>
+      <div class="item-price">7,60</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="bosna_spezial.jpg" alt="Bosna Spezial 2 Würstel">
+        <div class="item-text">
+          <div class="item-name">Bosna Spezial (2 Würstel)</div>
+          <div class="item-desc">mit Ketchup & Mayo</div>
+        </div>
+      </div>
+      <div class="item-price">9,90</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="bosna_original.jpg" alt="Bosna Original">
+        <div class="item-text">
+          <div class="item-name">Bosna Original</div>
+          <div class="item-desc">mit Senf</div>
+        </div>
+      </div>
+      <div class="item-price">7,60</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="bosna_original.jpg" alt="Bosna Original 2 Würstel">
+        <div class="item-text">
+          <div class="item-name">Bosna Original (2 Würstel)</div>
+          <div class="item-desc">mit Senf</div>
+        </div>
+      </div>
+      <div class="item-price">9,90</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="currywurst.jpg" alt="Currywurst mit Semmel">
+        <div class="item-text">
+          <div class="item-name">Currywurst mit Semmel</div>
+          <div class="item-desc">Ketchup-Sauce & Currypulver</div>
+        </div>
+      </div>
+      <div class="item-price">7,40</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="currywurst.jpg" alt="Currywurst mit Pommes">
+        <div class="item-text">
+          <div class="item-name">Currywurst mit Pommes</div>
+          <div class="item-desc">mit Ketchup, Mayo & Currypulver</div>
+        </div>
+      </div>
+      <div class="item-price">11,40</div>
+    </div>
+  </main>
+</body>
+</html>

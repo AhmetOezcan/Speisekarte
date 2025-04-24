@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beilagen – Pinzgau Kebap</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #b22222;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .untertitel {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .item-card {
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .item-info {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .item-info img {
+      width: 60px;
+      height: 60px;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+
+    .item-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .item-name {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .item-desc {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .item-price {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Beilagen</h1>
+    <p class="untertitel">kleines zum Snackn</p>
+  </header>
+
+  <main>
+    <div class="item-card">
+      <div class="item-info">
+        <img src="salat.jpg" alt="Salat">
+        <div class="item-text">
+          <div class="item-name">Gemischter Salat</div>
+          <div class="item-desc">mit Essig & Öl oder Joghurtdressing</div>
+        </div>
+      </div>
+      <div class="item-price">4,20</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="kartoffelsalat.jpg" alt="Kartoffelsalat">
+        <div class="item-text">
+          <div class="item-name">Kartoffelsalat</div>
+        </div>
+      </div>
+      <div class="item-price">3,40</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="pommes_klein.jpg" alt="Pommes klein">
+        <div class="item-text">
+          <div class="item-name">Pommes klein</div>
+          <div class="item-desc">mit Ketchup & Mayo</div>
+        </div>
+      </div>
+      <div class="item-price">4,80</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="pommes_klein.jpg" alt="Pommes groß">
+        <div class="item-text">
+          <div class="item-name">Pommes groß</div>
+          <div class="item-desc">mit Ketchup & Mayo</div>
+        </div>
+      </div>
+      <div class="item-price">5,20</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="ketchup_mayo.jpg" alt="Ketchup / Mayo">
+        <div class="item-text">
+          <div class="item-name">Ketchup / Mayo (extra)</div>
+        </div>
+      </div>
+      <div class="item-price">0,80</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="semmel.jpg" alt="Semmel">
+        <div class="item-text">
+          <div class="item-name">Semmel (extra)</div>
+        </div>
+      </div>
+      <div class="item-price">0,70</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="weckerl.jpg" alt="Weckerl">
+        <div class="item-text">
+          <div class="item-name">Kebap- oder Bosna-Weckerl</div>
+        </div>
+      </div>
+      <div class="item-price">2,00</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="extra_zutat.jpg" alt="Zutat">
+        <div class="item-text">
+          <div class="item-name">Jede weitere Zutat</div>
+        </div>
+      </div>
+      <div class="item-price">1,00</div>
+    </div>
+  </main>
+</body>
+</html>

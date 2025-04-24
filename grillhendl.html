@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grillhendl – Pinzgau Kebap</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #b22222;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .untertitel {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .item-card {
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .item-info {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .item-info img {
+      width: 60px;
+      height: 60px;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+
+    .item-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .item-name {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .item-price {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Grillhendl</h1>
+    <p class="untertitel">Heiß & Knusprig</p>
+  </header>
+
+  <main>
+    <div class="item-card">
+      <div class="item-info">
+        <img src="halb_hendl.jpg" alt="Halbes Hendl">
+        <div class="item-text">
+          <div class="item-name">1/2 Grillhendl</div>
+        </div>
+      </div>
+      <div class="item-price">7,40</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="ganzes_hendl.jpg" alt="Ganzes Hendl">
+        <div class="item-text">
+          <div class="item-name">Ganzes Grillhendl</div>
+        </div>
+      </div>
+      <div class="item-price">14,80</div>
+    </div>
+  </main>
+</body>
+</html>

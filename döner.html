@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dönergerichte – Pinzgau Kebap</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #b22222;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .untertitel {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .item-card {
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .item-info {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .item-info img {
+      width: 60px;
+      height: 60px;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+
+    .item-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .item-name {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .item-desc {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .item-price {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dönergerichte</h1>
+    <p class="untertitel">Klassiker mit Geschmack</p>
+  </header>
+
+  <main>
+    <div class="item-card">
+      <div class="item-info">
+        <img src="doener.jpg" alt="Döner">
+        <div class="item-text">
+          <div class="item-name">Kebap</div>
+          <div class="item-desc">mit Yoghurt-Knoblauch-Sauce</div>
+        </div>
+      </div>
+      <div class="item-price">7,60</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="doener.jpg" alt="Kebap mit Schafskäse">
+        <div class="item-text">
+          <div class="item-name">Kebap mit Schafskäse</div>
+        </div>
+      </div>
+      <div class="item-price">8,10</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="veggi.jpg" alt="Kebap Veggie">
+        <div class="item-text">
+          <div class="item-name">Kebap Veggie</div>
+          <div class="item-desc">(auch mit Käse)</div>
+        </div>
+      </div>
+      <div class="item-price">7,60</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="falafel.jpg" alt="Kebap mit Falafel">
+        <div class="item-text">
+          <div class="item-name">Kebap mit Falafel</div>
+          <div class="item-desc">mit Yoghurt-Knoblauch-Sauce</div>
+        </div>
+      </div>
+      <div class="item-price">8,10</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="duerum.jpg" alt="Kebap Dürüm">
+        <div class="item-text">
+          <div class="item-name">Kebap Dürüm</div>
+        </div>
+      </div>
+      <div class="item-price">8,10</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="duerum.jpg" alt="Dürüm mit Schafskäse">
+        <div class="item-text">
+          <div class="item-name">Kebap Dürüm mit Schafskäse</div>
+        </div>
+      </div>
+      <div class="item-price">8,90</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="veggi.jpg" alt="Kebap Dürüm Veggie">
+        <div class="item-text">
+          <div class="item-name">Kebap Dürüm Veggie</div>
+          <div class="item-desc">mit Yoghurt-Knoblauch-Sauce</div>
+        </div>
+      </div>
+      <div class="item-price">8,10</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="falafel.jpg" alt="Dürüm Veggie mit Falafel">
+        <div class="item-text">
+          <div class="item-name">Kebap Dürüm Veggie mit Falafel</div>
+          <div class="item-desc">mit Yoghurt-Knoblauch-Sauce</div>
+        </div>
+      </div>
+      <div class="item-price">8,90</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="döner.jpg" alt="Kebap Teller">
+        <div class="item-text">
+          <div class="item-name">Kebap Teller</div>
+          <div class="item-desc">mit Pommes und Salat</div>
+        </div>
+      </div>
+      <div class="item-price">13,70</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="kebap_box.jpg" alt="Kebap Box">
+        <div class="item-text">
+          <div class="item-name">Kebap Box</div>
+          <div class="item-desc">mit Pommes und Salat</div>
+        </div>
+      </div>
+      <div class="item-price">7,80</div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <img src="kebap_box.jpg" alt="Kebap Box nur Fleisch">
+        <div class="item-text">
+          <div class="item-name">Kebap Box nur mit Fleisch</div>
+        </div>
+      </div>
+      <div class="item-price">8,60</div>
+    </div>
+  </main>
+</body>
+</html>
